@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --bg-color-950: 200deg 14.29% 8.24%;
+        --bg-color-900: 200deg 14.29% 10.98%;
+        --bg-color-800: 200deg 14.29% 13.73%;
+        --bg-color-700: 200deg 14.29% 16.47%;
+        --bg-color-600: 200deg 14.29% 19.22%;
+        --bg-color-500: 200deg 14.29% 21.96%;
+        --bg-color-400: 200deg 14.29% 24.71%;
+        --bg-color-300: 200deg 14.29% 27.45%;
+        --bg-color-200: 200deg 14.29% 30.20%;
+        --bg-color-100: 200deg 14.29% 32.94%;
+        --bg-color-50: 200deg 14.29% 45.69%;
+    }
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    width: 100%;
+}
+
+.scroll-gutter-stable {
+    scrollbar-gutter: stable;
+}
